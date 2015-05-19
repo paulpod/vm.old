@@ -1,0 +1,55 @@
+{{<layout}}
+
+{{$pageTitle}}
+	Report the transfer of a vehicle
+{{/pageTitle}}
+
+
+{{$content}}
+
+<main id="content" role="main">
+
+<p class="back-link"><a href="">Back</a></p>
+
+<h1 class="heading-xlarge">About the owners</h1>
+
+<form class="form trade-non-trade">
+
+  <h2 class="heading-medium">Who was the previous owner?</h2>
+  <div class="form-group">    
+      <label class="form-label block-label" for="prev-trade"> 
+        <input type="radio" id="prev-trade" name="prev"> Motor trade, auction house or insurance company
+      </label>
+      <label class="form-label block-label" for="prev-non-trade-business"> 
+        <input type="radio" id="prev-non-trade-business" name="prev"> Other business
+      </label>
+      <label class="form-label block-label" for="prev-non-trade-individual"> 
+        <input type="radio" id="prev-non-trade-individual" name="prev"> Private individual
+      </label>
+  </div>
+
+  <h2 class="heading-medium">Who is the new owner?</h2>
+  <div class="form-group">     
+      <label class="form-label block-label" for="new-trade"> 
+        <input type="radio" id="new-trade" name="new"> Motor trade, auction house or insurance company
+      </label>
+      <label class="form-label block-label" for="new-non-trade-business"> 
+        <input type="radio" id="new-non-trade-business" name="new"> Other business
+      </label>
+      <label class="form-label block-label" for="new-non-trade-individual"> 
+        <input type="radio" id="new-non-trade-individual" name="new"> Private individual
+      </label>
+  </div>    
+
+
+	 <div class="form-group">
+      <a href="vehicle-details" class="button">Continue</a>
+    </div>
+</form>
+	
+
+</main>
+
+{{/content}}
+
+{{/layout}}
